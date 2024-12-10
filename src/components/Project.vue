@@ -20,7 +20,7 @@ export default {
 
 <template>
   <div class="p-5 flex justify-center">
-    <div class="grid grid-cols-2 max-md:grid-cols-1 w-full gap-5">
+    <div class="grid grid-cols-3 max-md:grid-cols-1 w-full gap-5 gap-y-10">
       <!-- <div class="group h-auto flex-1 flex flex-col transition-transform duration-300
        shadow-md " :class="isDark ? 'border border-stone-700 bg-stone-800' : 'border border-stone-700 bg-slate-50'"
         v-for="(project, index) in projects" :key="index">
@@ -56,9 +56,9 @@ export default {
         <div class="w-full h-full group-hover:h-56 duration-300">
           <img :src="project.src" class="w-full h-full object-cover" alt="">
         </div>
-        <div class="absolute -bottom-[130px] group-hover:bottom-0 
+        <div class="absolute -bottom-[130px] w-full group-hover:bottom-0 
           transition-all duration-300 p-3 flex-1 flex flex-col min-h-fit"
-          :class="isDark ? 'text-stone bg-stone-800' : 'text-black  bg-white'">
+          :class="isDark ? 'text-stone-200 bg-stone-800' : 'text-black  bg-white'">
           <h1 class="font-bold text-xl flex items-center ">
             {{ project.name }}
           </h1>

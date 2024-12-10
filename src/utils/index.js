@@ -26,58 +26,16 @@ export const projects = [
     linkedin: '#',
     stacks: ['HTML', 'CSS', 'BootStrap', 'JQuery', 'Python', 'Django']
   },
+]
+
+export const experiences = [
   {
-    src: '/images/projects/role_based_app.png',
-    name: 'Role based access control app',
-    desc: 'A role based access control app made in Django where a admin can manage the roles and permissions, admin can give roles to users and that user can do the thing that is defined in the role and permission',
-    star: '12',
-    github: 'https://github.com/ayush-may/chitchat',
-    linkedin: '#',
-    stacks: ['HTML', 'CSS', 'BootStrap', 'JQuery', 'Python', 'Django']
-  },
-  {
-    src: '/images/projects/role_based_app.png',
-    name: 'Role based access control app',
-    desc: 'A role based access control app made in Django where a admin can manage the roles and permissions, admin can give roles to users and that user can do the thing that is defined in the role and permission',
-    star: '12',
-    github: 'https://github.com/ayush-may/chitchat',
-    linkedin: '#',
-    stacks: ['HTML', 'CSS', 'BootStrap', 'JQuery', 'Python', 'Django']
-  },
-  {
-    src: '/images/projects/role_based_app.png',
-    name: 'Role based access control app',
-    desc: 'A role based access control app made in Django where a admin can manage the roles and permissions, admin can give roles to users and that user can do the thing that is defined in the role and permission',
-    star: '12',
-    github: 'https://github.com/ayush-may/chitchat',
-    linkedin: '#',
-    stacks: ['HTML', 'CSS', 'BootStrap', 'JQuery', 'Python', 'Django']
-  },
-  {
-    src: '/images/projects/role_based_app.png',
-    name: 'Role based access control app',
-    desc: 'A role based access control app made in Django where a admin can manage the roles and permissions, admin can give roles to users and that user can do the thing that is defined in the role and permission',
-    star: '12',
-    github: 'https://github.com/ayush-may/chitchat',
-    linkedin: '#',
-    stacks: ['HTML', 'CSS', 'BootStrap', 'JQuery', 'Python', 'Django']
-  },
-  {
-    src: '/images/projects/role_based_app.png',
-    name: 'Role based access control app',
-    desc: 'A role based access control app made in Django where a admin can manage the roles and permissions, admin can give roles to users and that user can do the thing that is defined in the role and permission',
-    star: '12',
-    github: 'https://github.com/ayush-may/chitchat',
-    linkedin: '#',
-    stacks: ['HTML', 'CSS', 'BootStrap', 'JQuery', 'Python', 'Django']
-  },
-  {
-    src: '/images/projects/role_based_app.png',
-    name: 'Role based access control app',
-    desc: 'A role based access control app made in Django where a admin can manage the roles and permissions, admin can give roles to users and that user can do the thing that is defined in the role and permission',
-    star: '12',
-    github: 'https://github.com/ayush-may/chitchat',
-    linkedin: '#',
-    stacks: ['HTML', 'CSS', 'BootStrap', 'JQuery', 'Python', 'Django']
-  },
+    years: '2024',
+    months: 'march-aug',
+    headerName: 'Contributor @GirlScript summer 2024',
+    role: 'contributor',
+    desc: `
+      Worked as a contributor there where I have to contribute to the different projects according to my needs
+    `
+  }
 ]
