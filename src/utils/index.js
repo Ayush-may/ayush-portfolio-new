@@ -26,6 +26,24 @@ export const projects = [
     linkedin: '#',
     stacks: ['HTML', 'CSS', 'BootStrap', 'JQuery', 'Python', 'Django']
   },
+  {
+    src: '/images/projects/themeal.jpeg',
+    name: 'theMeal',
+    desc: 'A website where peoples can buy the foods to eat just like any ecommerce website. All functionality is avaialable like adding a item in a cart, ordering and food , etc.',
+    star: '12',
+    github: 'https://github.com/ayush-may/theMeal_reactjs_frontend',
+    linkedin: '#',
+    stacks: ['HTML', 'CSS', 'Tailwind css', 'React']
+  },
+  {
+    src: '/images/projects/shooter_game.png',
+    name: 'theMeal',
+    desc: 'A word type shooting game made in vanilla js with sfx.',
+    star: '12',
+    github: 'https://github.com/ayush-may/shooter-game',
+    linkedin: '#',
+    stacks: ["vanillajs"]
+  },
 ]
 
 export const experiences = [
